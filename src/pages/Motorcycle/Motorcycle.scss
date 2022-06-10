@@ -1,0 +1,10 @@
+.container-motorcycle {
+  display: flex;
+  width: 100%;
+  min-height: 50vh;
+  flex-direction: column;
+  transition: 0.5s;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}

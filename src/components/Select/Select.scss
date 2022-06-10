@@ -1,0 +1,32 @@
+.container-select {
+  border: solid 2px #f0f0f0;
+  border-radius: 4px;
+  padding: 8px 2px;
+  display: flex;
+  flex: 1;
+  margin-top: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  transition: border-color 0.2s;
+
+  span {
+    color: #888;
+    font-size: 15px;
+    margin-left: 2px;
+    width: fit-content;
+  }
+
+  &:hover,
+  &:focus-within {
+    border-color: #f0f0f0;
+  }
+}
+
+.icon-container {
+  margin-left: 4px;
+  font-size: 20px;
+  color: #f51344;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
